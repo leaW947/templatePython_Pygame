@@ -37,7 +37,7 @@ def run():
         lastUpdate = now
 
 
-        pygame.display.flip()
+        screen.fill([0,0,0])
 
         main.update(dt)
         main.draw()
