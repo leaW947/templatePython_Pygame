@@ -7,20 +7,20 @@ class AssetManager:
         self.lstSounds=[]
 
 
-    def addImages(self,pPath):
+    def addImage(self,pPath):
         img=pygame.image.load(pPath)
         self.lstImages[pPath]=img
 
 
-    def addSounds(self,pPath):
+    def addSound(self,pPath):
         self.lstSounds.append(pPath)
 
 
-    def getImages(self,pPath):
+    def getImage(self,pPath):
         return self.lstImages[pPath]
 
 
-    def getSounds(self,pPath):
+    def getSound(self,pPath):
 
         for snd in self.lstSounds:
             if pPath==snd:
