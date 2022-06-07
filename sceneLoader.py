@@ -15,6 +15,7 @@ class SceneLoader:
 
         self.mySceneGame=sceneGame.SceneGame()
 
+
     def load(self,pScreen):
         self.myAssetManager=assetManager.AssetManager()
         self.myUtils=utils.Utils()
